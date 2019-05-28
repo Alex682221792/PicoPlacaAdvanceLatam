@@ -1,0 +1,6 @@
+FROM openjdk:8
+WORKDIR /app
+ADD picoplaca-ws/target/picoplaca-ws-1.0-SNAPSHOT.jar /app
+
+EXPOSE 8080
+ENTRYPOINT ["java","-jar", "picoplaca-ws-1.0-SNAPSHOT.jar"]

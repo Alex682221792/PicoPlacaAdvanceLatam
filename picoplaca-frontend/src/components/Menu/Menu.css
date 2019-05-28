@@ -1,0 +1,22 @@
+.card img{
+  height: auto;
+}
+
+.card:hover{
+  border: 1px white solid;
+  transition-duration: 1s;
+}
+
+.card{
+  transition: 1s;
+}
+
+.show{
+  display: block;
+  transition-duration: 1s;
+}
+
+.hide{
+  display: none;
+  transition-duration: 1s;
+}
